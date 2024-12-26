@@ -1,0 +1,32 @@
+export const products = [
+  {
+    id: '1',
+    name: 'Premium Garden Vermicompost',
+    description: 'High-quality vermicompost perfect for home gardens and indoor plants.',
+    price: 29.99,
+    image: 'https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&q=80',
+    category: 'residential',
+    size: '5 lbs',
+    inStock: true,
+  },
+  {
+    id: '2',
+    name: 'Commercial Grade Vermicompost',
+    description: 'Bulk vermicompost suitable for large-scale agricultural applications.',
+    price: 199.99,
+    image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80',
+    category: 'commercial',
+    size: '50 lbs',
+    inStock: true,
+  },
+  {
+    id: '3',
+    name: 'Worm Tea Concentrate',
+    description: 'Liquid fertilizer concentrate rich in beneficial microorganisms.',
+    price: 24.99,
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80',
+    category: 'residential',
+    size: '1 gallon',
+    inStock: true,
+  },
+] as const;
